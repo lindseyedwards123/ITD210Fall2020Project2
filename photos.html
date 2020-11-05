@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="photos.css">
+</head>
+<body>
+<img src="ACPS Logo.png">
+    
+<div class="navbar">
+  <a href="homepage.html" href="#">Home</a> 
+  <a href="services.html"href="#">Services</a> 
+  <a href="contact.html" href="#">Contact</a> 
+  <a href="photos.html" class="active" href="#">Photos</a>    
+  <a href="socialmediapage.html"href="#">Social Media</a>
+</div>
+  <p>
+    </p>  
+    
+
+   <div class="gallery">
+  
+    <img src="IMG_4426.jpg" img id="service"onmouseover="IMG_4431.jpg">
+
+  
+</div>
+
+<div class="gallery">
+  
+    <img src="IMG_4850.jpg" id="pool" onmouseover1="IMG_4912.jpg">
+
+</div>
+
+
+    
+    <div class="gallery">
+ 
+    <img src="IMG_5619.jpg" id="picture" onmouseover3="IMG_5622.jpg">
+  
+</div>
+    <div class="gallery">
+ 
+    <img src="IMG_4583.jpg" id="before" onmouseover2="IMG_4612.jpg">
+  
+</div>
+     <div class="gallery">
+ 
+    <img src="IMG_5262.jpg" id="picture1" onmouseover4="IMG_5263.jpg">
+  
+</div>
+    <div class="gallery">
+ 
+    <img src="IMG_5502.jpg" id="picture2" onmouseover5="IMG_5672.jpg">
+  
+</div>
+    </body>
+    
+
+ 
+    <script>
+        var service = document.getElementById('service');		
+		
+		service.addEventListener("mouseover", mouseOver, false);
+        service.addEventListener("mouseout",onmouseout, false)
+    function mouseOver()
+		{
+			
+			var img_element = document.getElementById('service');
+			img_element.src="IMG_4431.jpg";
+            
+		}
+    function onmouseout()
+    {
+        var img_element = document.getElementById('service');
+        img_element.src="IMG_4426.jpg"
+    }
+        
+        
+        
+        var pool =
+            document.getElementById('pool');		
+		
+		pool.addEventListener("mouseover", mouseOver1, false);
+        pool.addEventListener("mouseout",onmouseout1, false)
+        
+        function mouseOver1()
+		{
+			
+			var img_element = document.getElementById('pool');
+			img_element.src="IMG_4912.jpg";
+            
+		}
+    function onmouseout1()
+    {
+        var img_element = document.getElementById('pool');
+        img_element.src="IMG_4850.jpg"
+    }
+        
+        var before =
+            document.getElementById('before');		
+		
+		before.addEventListener("mouseover", mouseOver2, false);
+        before.addEventListener("mouseout",onmouseout2, false)
+    function mouseOver2()
+		{
+			
+			var img_element = document.getElementById('before');
+			img_element.src="IMG_4583.jpg";
+            
+		}
+    function onmouseout2()
+    {
+        var img_element = document.getElementById('before');
+        img_element.src="IMG_4612.jpg"
+    }
+    
+        
+         var picture =
+            document.getElementById('picture');		
+		
+		picture.addEventListener("mouseover", mouseOver3, false);
+        picture.addEventListener("mouseout",onmouseout3, false)
+        
+        function mouseOver3()
+		{
+			
+			var img_element = document.getElementById('picture');
+			img_element.src="IMG_5622.jpg";
+            
+		}
+    function onmouseout3()
+    {
+        var img_element = document.getElementById('picture');
+        img_element.src="IMG_5619.jpg"
+    }
+        
+             
+         var picture1 =
+            document.getElementById('picture1');		
+		
+		picture1.addEventListener("mouseover", mouseOver4, false);
+        picture1.addEventListener("mouseout",onmouseout4, false)
+        
+        function mouseOver4()
+		{
+			
+			var img_element = document.getElementById('picture1');
+			img_element.src="IMG_5263.jpg";
+            
+		}
+    function onmouseout4()
+    {
+        var img_element = document.getElementById('picture1');
+        img_element.src="IMG_5262.jpg"
+    }
+      
+         var picture2 =
+            document.getElementById('picture2');		
+		
+		picture2.addEventListener("mouseover", mouseOver5, false);
+        picture2.addEventListener("mouseout",onmouseout5, false)
+        
+        function mouseOver5()
+		{
+			
+			var img_element = document.getElementById('picture2');
+			img_element.src="IMG_5672.jpg";
+            
+		}
+    function onmouseout5()
+    {
+        var img_element = document.getElementById('picture2');
+        img_element.src="IMG_5502.jpg"
+    }
+    </script>
+</html>

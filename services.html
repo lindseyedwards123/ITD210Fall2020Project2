@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="services.css">
+</head>
+<body>
+<img src="ACPS Logo.png">
+    
+<div class="navbar">
+  <a href="homepage.html" href="#">Home</a> 
+  <a href="services.html"class="active" href="#">Services</a> 
+  <a href="contact.html" href="#">Contact</a> 
+  <a href="#">Photos</a>    
+  <a href="socialmediapage.html"href="#">Social Media</a>
+</div>
+  <p>
+    </p>  
+  
+
+    <p>  <img id="service"src="IMG_4912.jpg" width="400" height="400" style="float:left" onmouseover="IMG_4850.jpg"> </p>
+    
+    <p>  Some of thes services Aqua Care Pool Services provides is: </p>
+    
+    
+    
+    
+ <p>        
+    <li> weekly or bi-weekly cleanings </li>
+     <li> plumping repairs </li> 
+        <li> replacing pool filters </li>
+            <li>filling cracks in cement</li>
+            <li>& more!</li>
+    </p>   
+    
+    <p>
+    Aqua Care Pool Services will come install an inground pool however you'd like it. The chemicals come with it and you are able to purchase chemicals to clean it yourself, or have it serviced weekly or bi-weekly. Not only do they install and service pool, they also do pool inspections for home resale.
+    </p>
+    
+<script>
+        var service = document.getElementById('service');		
+		
+		service.addEventListener("mouseover", mouseOver, false);
+        service.addEventListener("mouseout",onmouseout, false)
+    function mouseOver()
+		{
+			
+			var img_element = document.getElementById('service');
+			img_element.src="IMG_4850.jpg";
+            
+		}
+    function onmouseout()
+    {
+        var img_element = document.getElementById('service');
+        img_element.src="IMG_4912.jpg"
+    }
+    </script>
+    </body>
+    
+</html>
