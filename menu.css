@@ -1,0 +1,61 @@
+body {
+  height: 100%;
+
+ 
+  /* The image used */
+  background-image: url("background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+        font-family: "Amatic SC", sans-serif;
+        
+}
+header  {
+   display: block;
+margin:auto;
+    width: 50%;
+    text-align: center
+    
+}
+.navbar {
+  width: 100%;
+  background-color: #f4c2c2;
+  overflow: auto;
+    display: inline-block;
+  border: 2px solid black;
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%; 
+  text-align: center; 
+    
+}
+
+
+.navbar a:hover {
+  background-color: #f7bfbe;
+}
+
+
+.navbar a.active {
+  background-color: #ffc1cc;
+   
+}
+
+
+
+
+
